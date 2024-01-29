@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@600&family=Inter&family=Poppins&family=Roboto:ital,wght@1,100&family=Ubuntu:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.form {
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    justify-self: center;
+    width: fit-content;
+    background-color: antiquewhite;
+    border: 2px solid burlywood;
+    border-radius: 10px;
+    width: 50%;
+    box-shadow: 5px 4px 9px grey;
+}
+
+input{
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px solid ;
+}
+
+.submitt {
+    padding: 10px;
+    background-color: burlywood;
+    border: 2px solid burlywood;
+    border-radius: 5px;
+}
+
+ul {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    width: 100%;
+}
+
+li {
+    background-color: burlywood;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+.done {
+    text-decoration: line-through;
+
+}
+.doneli {
+    background-color: rgb(202, 135, 52);
+}
+
+.trash{
+    width:20px;
+    height: 20px;
+    display: flex;
+    margin-left: auto;
+    justify-content: flex-end;
+    width: fit-content;
+    border-radius: 5px;
+    cursor: pointer;
+}
