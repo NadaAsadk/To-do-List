@@ -28,6 +28,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: nowrap;
     gap: 20px;
     justify-self: center;
     width: fit-content;
@@ -35,6 +36,13 @@ body {
     border: 2px solid burlywood;
     border-radius: 10px;
     box-shadow: 5px 4px 9px grey;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
 }
 
 input{
