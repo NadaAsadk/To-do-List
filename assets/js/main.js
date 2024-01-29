@@ -9,7 +9,7 @@ button.onclick=function(e){
 
     const checkbox = document.createElement('input');
     checkbox.setAttribute('type','checkbox');
-    
+
     const p = document.createElement('p');
     p.textContent = item;
 
@@ -22,7 +22,7 @@ button.onclick=function(e){
     listItem.appendChild(deleteMe);
     tasklist.appendChild(listItem);
 
-    checkbox.addEventListener('click',taskIsDone);
+    checkbox.addEventListener('change',taskIsDone);
     deleteMe.addEventListener('click',deleted);
     }
     else{

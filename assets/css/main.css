@@ -43,19 +43,26 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
+    gap:0px;
 }
 
 input{
     padding: 10px;
     cursor: pointer;
     border-radius: 10px solid ;
+    border: 2px solid burlywood;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .submitt {
     padding: 10px;
     background-color: burlywood;
     border: 2px solid burlywood;
-    border-radius: 5px;
+    border-radius:0px 5px 5px 0px;
 }
 
 ul {
