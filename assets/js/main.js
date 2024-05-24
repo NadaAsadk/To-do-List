@@ -28,7 +28,6 @@ button.onclick=function(e){
     else{
         alert("Nothing to do");
     }
-    
     reset();
     
 }
@@ -51,6 +50,8 @@ function taskIsDone(ev){
 function deleted(ev){
     ev.preventDefault();
     let current = ev.target;
+    console.log(current.parentElement.children[1]);
     let nextSibling = current.parentElement;
     nextSibling.remove();
 }
+

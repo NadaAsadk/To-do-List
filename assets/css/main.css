@@ -67,6 +67,7 @@ input{
 
 ul {
     display: flex;
+    flex-wrap: wrap;
     gap: 5px;
     flex-direction: column;
     width: 100%;
@@ -77,6 +78,7 @@ li {
     width: 100%;
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
     gap: 5px;
     padding: 10px;
     align-items: center;
